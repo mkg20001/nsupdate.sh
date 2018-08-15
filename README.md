@@ -20,3 +20,5 @@ LOOP=2h CONFIG=/path/to/your/config.sh bash nsupdate.sh
 ```
 
 You can also install it using `make install` or install the service with `make install-service`
+
+There is a debian package available: https://i.mkg20001.io/deb/nsupdate.sh_1.0.0-1_all.deb
