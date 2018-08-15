@@ -1,0 +1,14 @@
+Source: nsupdate.sh
+Section: net
+Priority: optional
+Maintainer: Maciej Krüger <mkg20001@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/mkg20001/nsupdate.sh
+Vcs-Git: git://github.com/mkg20001/nsupdate.sh.git
+Vcs-Browser: https://github.com/mkg20001/nsupdate.sh.git
+
+Package: nsupdate.sh
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple nsupdate.info daemon service script

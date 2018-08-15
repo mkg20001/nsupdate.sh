@@ -1,0 +1,2 @@
+nsupdate.sh /usr/bin
+etc/nsupdate.sh /etc
